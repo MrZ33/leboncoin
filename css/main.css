@@ -104,13 +104,21 @@ textarea {
   align-items: center;
 }
 
-button
+#menu , #depot , #recherche , #choose
 {
-  color: rgb(245, 107, 42);
   border-style: none;
-  background-color: white;
   border-radius: 4px;
   height: 40px;
+}
+
+#menu , h2 span
+{
+  color: rgb(245, 107, 42);
+}
+
+#menu
+{
+  background-color: white;
   position: absolute;
   font-size: 14px;
   width: 62px;
@@ -127,10 +135,56 @@ h1
   font-size: 30px;
 }
 
+.container
+{
+  text-align: center;
+  padding-top: 25px;
+}
 
+h2
+{
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0.5em 20px 0.5em;
+}
 
+#depot , #recherche
+{
+  width: 290px;
+  font-size: 14px;
+}
 
+#depot
+{
+  background-color: #4183d7;
+  color: white;
+  margin-bottom: 20px;
+}
 
+#recherche
+{
+  background-color: white;
+  border: 1px solid #4183d7;
+  color: #4183d7;
+}
+
+.container2
+{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+#choose
+{
+  width:100%;
+  background-color: white;
+  border: 1px solid lightgrey;
+  text-indent: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  height: 50px;
+}
 
 
 
