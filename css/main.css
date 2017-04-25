@@ -299,14 +299,14 @@ header {
 }
 
 .blue {
-    background-color: blue;
+    background-color: #4c94ef;
     color: white;
 }
 
 .white {
     background-color: white;
-    color: blue;
-    border: 1px solid blue;
+    color: #4c94ef;
+    border: 1px solid #4c94ef;
 }
 
 .bonaffaire a i {
@@ -900,7 +900,7 @@ input {
       text-align: right;
   }
   .regionul a {
-      color: blue;
+      color: #4c94ef;
   }
   .regionul a:hover {
       color: #F56B2A;
@@ -972,7 +972,7 @@ input {
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: blue;
+      background-color: #4c94ef;
       border-radius: 4px;
   }
   .buttonrecherche a {
