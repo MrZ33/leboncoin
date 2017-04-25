@@ -92,6 +92,97 @@ textarea {
 }
 
 /* ==========================================================================
+                    common rules
+========================================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainnav, .connexion, .regionul, .firstfooter, .secondfooter, .network p, .photo h3, .search {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header, .navlogo, .maincontainer {
+    display: flex;
+}
+
+label {
+    display: block;
+}
+
+.orange1 {
+    color: #F56B2A;
+}
+
+.blue1 {
+    color: #3873BD;
+}
+
+.white1:hover {
+    text-decoration: underline;
+}
+
+.blue1:hover {
+    text-decoration: underline;
+}
+
+.firstfooter ul li a:hover {
+    text-decoration: underline;
+}
+
+.secondfooter ul li a:hover {
+    text-decoration: underline;
+}
+
+.offreannonce nav ul li:hover {
+    background-color: white;
+}
+
+.offreannonce nav ul li:hover .hoverorange {
+    color: #F56B2A;
+    text-decoration: underline;
+}
+
+.offres a:hover, .une article a:hover {
+    background-color: #f2f2f2;
+}
+
+.mainnav ul li a:hover {
+    text-decoration: underline;
+}
+
+.blue:hover, .buttonblue:hover, .buttonrecherche:hover {
+    background-color: #4c94ef;
+}
+
+.white:hover {
+    background-color: #d9e6f7;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.containergrey {
+    margin-top: 69px;
+}
+
+
+/* ==========================================================================
+                   end of common rules
+========================================================================== */
+
+
+/* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
