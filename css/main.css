@@ -630,8 +630,472 @@ input {
 ========================================================================== */
 
 
+/* ==========================================================================
+                            Footer rules
+========================================================================== */
+
+.footermobile {
+    background-color: #474747;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footermobile h4 {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+.footerannonce h4 {
+    line-height: 70px;
+}
 
 
+/* ==========================================================================
+                                     end of footer rules
+========================================================================== */
+
+
+@media (min-width:768px) {
+
+  /* ==========================================================================
+                main rules
+========================================================================== */
+  .maincontainer, .maincontaineroffre {
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .map, .bonaffaire, .region {
+      width: 100%;
+  }
+  .bonaffaire p, .bonaffaire a {
+      margin: 15px auto;
+  }
+  /* -------------------- first section in main rules ------ */
+  .bonaffaire, .map {
+      width: 47%;
+  }
+  .bonaffaire a {
+      width: 100%;
+      padding: 10px 0px;
+      border-radius: 4px;
+      font-size: 12px;
+  }
+  /* --------------------- Annonce.html ---------------------*/
+  .photo h3 {
+      display: block;
+      font-size: 13px;
+      font-weight: 500;
+  }
+  .photo article {
+      width: 22%;
+      height: 150px;
+      background-color: #F2F2F2;
+      border: 1px dashed #929292;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-left: 15px;
+  }
+  .photo figure {
+      border: 0;
+      margin-top: 30px;
+  }
+  .photo figure i {
+      font-size: 50px;
+      padding: 0px;
+  }
+  .septphoto h3 {
+      width: 70%;
+  }
+  .septphoto {
+      border: 3px dashed #F56B2A !important;
+      margin: 0;
+  }
+  .adressecontainer {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .valideadresse {
+      display: flex;
+      flex-wrap: wrap;
+      width: 47%;
+  }
+  .mapform {
+      width: 47%;
+  }
+  .adr {
+      width: 100%;
+  }
+  #adr {
+      width: 60%;
+      margin-right: 15px;
+  }
+  .button {
+      width: 25%;
+      padding: 10px 0;
+  }
+  .mapform figure {
+      width: 90%;
+      margin: auto;
+  }
+  .buttonblue {
+      padding: 15px 0;
+      width: 30%;
+      margin: 0;
+  }
+  /* ------------------------- offre.html ------------------- */
+  .mainannonce {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+  }
+  .une {
+      width: 20%;
+  }
+  .une article a figure {
+      margin: 0;
+      flex-direction: column;
+      border-bottom: 1px solid lightgrey;
+  }
+  .offreannonce {
+      width: 75%;
+      margin-right: 20px;
+  }
+  .navpage li {
+      font-size: 10px;
+  }
+  .maincontaineroffre {
+      width: 100%;
+  }
+  .offreannonce nav ul span {
+      display: block;
+      margin-left: 2px;
+      font-size: 11px;
+  }
+  .offreannonce nav ul li {
+      font-size: 12px;
+  }
+  .savoir {
+      display: flex;
+      background-color: #F2F2F2;
+      color: #57BDED;
+      height: 50px;
+      justify-content: center;
+      align-items: center;
+  }
+  .savoir:hover {
+      text-decoration: underline;
+  }
+  /* ==========================================================================
+                   end of main rules
+========================================================================== */
+
+@media (min-width:1024px) {
+
+  /* ==========================================================================
+                    common rules
+========================================================================== */
+  .menumobile, .selectregion, .searchmobile {
+      display: none;
+  }
+  .connexion, .mainnav, .region, .firstfooter, .secondfooter, .network p, .regionul, .search {
+      display: block;
+  }
+  .header, .maincontainer, .firstfooter, .secondfooter, .maincontaineroffre {
+      width: 85%;
+  }
+  /* ==========================================================================
+                   end of common rules
+========================================================================== */
+  /* ==========================================================================
+                header rules
+========================================================================== */
+  .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: auto;
+  }
+  .navlogo {
+      display: inherit;
+      justify-content: flex-start;
+      width: 85%;
+  }
+  .logo {
+      width: 23%;
+  }
+  .mainnav {
+      width: 75%;
+  }
+  .mainnav ul {
+      list-style-type: none;
+      display: flex;
+  }
+  .mainnav ul li {
+      padding: 0 1%;
+      font-size: 14px;
+      letter-spacing: -0.5px;
+  }
+  .mainnav ul li a {
+      color: #fff
+  }
+  .connexion {
+      width: 14%;
+      height: 69px;
+      border-left: 1px solid #fff;
+      border-right: 1px solid #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      ;
+  }
+  .connexion a {
+      display: flex;
+      width: 100%;
+      color: #fff;
+      font-size: 14px;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+  }
+  .connexion a:hover {
+      background-color: white;
+      color: #F56B2A;
+  }
+  .connexion i {
+      margin-right: 10px;
+  }
+  /* ==========================================================================
+                   end of header rules
+========================================================================== */
+  /* ==========================================================================
+                main rules
+========================================================================== */
+  .map, .bonaffaire {
+      width: 32%;
+  }
+  .region {
+      width: 19%;
+  }
+  .maincontainer, .maincontaineroffre {
+      justify-content: space-between;
+  }
+  .map {
+      margin-top: 25px;
+  }
+  .bonaffaire a {
+      width: 334px;
+  }
+  /* --------------------- Aside region rules ---------------------*/
+  .regionul {
+      list-style-type: none;
+      text-align: right;
+  }
+  .regionul a {
+      color: blue;
+  }
+  .regionul a:hover {
+      color: #F56B2A;
+  }
+  /* -------------------- Annonce.html ------ */
+  .votreannonce {
+      width: 70%;
+      margin: 0;
+      margin-left: 20px;
+  }
+  .valideadresse {
+      width: 65%;
+  }
+  .mapform {
+      width: 31%;
+  }
+  .maincontainer article input[type="tel"], .maincontainer article input[type="email"], .maincontainer article input[type="text"], .maincontainer article select, .maincontainer article textarea, .prix {
+      width: 60%;
+      height: 40px;
+  }
+  .prix {
+      justify-content: space-between;
+      width: 35%;
+  }
+  .prix input {
+      width: 100%;
+  }
+  .prix span {
+      margin-right: 15px;
+  }
+  label {
+      width: 100%;
+  }
+  .vosinfo input[type="text"], .vosinfo input[type="tel"], .vosinfo input[type="email"] {
+      width: 35% !important;
+      height: 30px;
+  }
+  textarea {
+      height: 200px !important;
+  }
+  /* ---------------------------- offre.html ----------------- */
+  .containergrey {
+      width: 100%;
+      background-color: #E6E6E6;
+      padding: 10px 0;
+  }
+  .search, .selectionne, .radio00, .radio {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .search {
+      width: 78%;
+      margin: auto;
+  }
+  .selectionne {
+      width: 75%;
+  }
+  .selectionne input {
+      width: 70%;
+      margin: 0;
+  }
+  .selectionne select {
+      width: 25% !important;
+      margin: 0;
+      margin-left: 10px;
+  }
+  .buttonrecherche {
+      width: 23%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: blue;
+      border-radius: 4px;
+  }
+  .buttonrecherche a {
+      color: white;
+  }
+  .radio {
+      font-size: 13px;
+      display: block;
+  }
+  .radio00 {
+      width: 100%;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+  }
+  .radio00 select {
+      width: 22%;
+      margin-left: 50px;
+      height: 30px;
+  }
+  .ville {
+      width: 25%;
+      margin-left: 50px;
+      height: 23px;
+  }
+  .offreannonce nav ul li {
+      width: 175px;
+  }
+  .offreannonce nav ul li a {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+  /* ==========================================================================
+                   end of main rules
+========================================================================== */
+  /* ==========================================================================
+                            end of footer rules
+========================================================================== */
+  .firstfooter, .secondfooter {
+      width: 85%;
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+      flex-wrap: wrap;
+      margin-top: 20px;
+  }
+  .firstfooter ul, .secondfooter ul {
+      width: 23%;
+      list-style-type: none;
+      margin-bottom: 20px;
+  }
+  .grey {
+      background-color: #474747;
+      padding-top: 20px;
+      color: #FFFFF3;
+  }
+  .lightgrey {
+      background-color: #F2F2F2
+  }
+  .grey .title {
+      border-bottom: 1px solid #666666;
+  }
+  .grey li a {
+      color: #FFFFF3;
+  }
+  .lightgrey .title {
+      border-bottom: 1px solid #D1D1D1;
+  }
+  .lightgrey li a {
+      color: #3873BD;
+  }
+  .title {
+      font-size: 20px;
+      margin: 20px 0;
+  }
+  .firstfooter .title {
+      color: #3873BD;
+  }
+  .secondfooter .title {
+      color: white;
+  }
+  footer li {
+      width: 100%;
+      font-size: 14px;
+  }
+  .secondfooter ul li figure, .logopayement img {
+      width: 110px;
+      height: 30px;
+      margin: 0;
+  }
+  .logopayement {
+      display: flex;
+  }
+  .lang {
+      width: 100%;
+      color: black;
+  }
+  .secondfooter>p {
+      width: 100%;
+      text-align: center;
+      border-top: 1px solid #666666;
+      border-bottom: 1px solid #666666;
+      padding: 8px 0;
+  }
+  .network p {
+      font-size: 13px;
+      margin-right: 5px;
+  }
+  .network {
+      width: 20%;
+      display: flex;
+      align-items: center;
+  }
+  .network figure {
+      margin: 0;
+  }
+  .network i {
+      font-size: 22px;
+  }
+  /* ==========================================================================
+                                     end of footer rules
+========================================================================== */
 
 /* ==========================================================================
    Helper classes
